@@ -24,7 +24,7 @@ public class Ejercicio3 {
 		System.out.println(cadena);
 	}
 	public static Collection cadenaOrdenadaSinSortYConRepetidos(Collection lista) {
-		List<Object> cadena = new ArrayList<>(lista);
+		List<Integer> cadena = new ArrayList<>(lista);
 		boolean ordenado;
 		 do {
 		        ordenado = true;
